@@ -1,0 +1,21 @@
+services:
+  portfolio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio_container
+    ports:
+      - "5172:5173"
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public # Added
+      - ./index.html:/app/index.html # Added
+      - ./tsconfig.json:/app/tsconfig.json
+      - ./tsconfig.app.json:/app/tsconfig.app.json
+      - ./vite.config.ts:/app/vite.config.ts
+    networks:
+      - web-public
+
+networks:
+  web-public:
+    external: true

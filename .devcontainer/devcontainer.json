@@ -1,0 +1,7 @@
+{
+  "name": "Portfolio Container",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "portfolio_dev_environment",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose"
+}
