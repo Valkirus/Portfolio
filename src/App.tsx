@@ -19,7 +19,8 @@ export default function App() {
 
           <p className="text-green-700 leading-relaxed">
             Computer Engineering student @ PSU.
-            Currently building a digital twin for the MorpHex hexapod.
+            Currently exploring the world of software.
+            From the pieces of code that run in embedded MCUs, to the large infrastructure that makes to world wide web.
           </p>
 
           <div className="pt-4 space-y-2">
