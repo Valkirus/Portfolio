@@ -1,0 +1,24 @@
+# ----------------------
+# System & Secrets
+# ----------------------
+.git
+.env
+.env.*
+docker-compose.yml
+docker-compose.*.yml
+Dockerfile
+README.md
+
+# ----------------------
+# Dependencies & Logs
+# ----------------------
+node_modules
+npm-debug.log
+yarn-error.log
+
+# ----------------------
+# Build Artifacts
+# ----------------------
+dist
+build
+coverage
